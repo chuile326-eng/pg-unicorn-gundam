@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PG Unicorn Gundam — RX-0 Final Battle Ver.</title>
+<style>
+  *{box-sizing:border-box} body{margin:0;font-family:system-ui,Arial,sans-serif;background:#0b0b0b;color:#fff}
+  header{padding:14px 20px;display:flex;justify-content:space-between;align-items:center;background:#111}
+  header b{letter-spacing:.2em} header a{color:#7cfc00;text-decoration:none}
+  .hero{background:#e8e4dc;color:#111;padding:20px}
+  .hero img{width:100%;display:block;border-radius:12px}
+  .hero h1{font-size:clamp(48px,10vw,120px);line-height:.9;margin:12px 0 0;letter-spacing:-.02em}
+  .marquee{overflow:hidden;white-space:nowrap;background:#7cfc00;color:#111;padding:10px 0;font-weight:800;transform:rotate(-1.5deg)}
+  .marquee span{display:inline-block;padding-left:100%;animation:m 18s linear infinite}
+  @keyframes m{to{transform:translateX(-100%)}}
+  section{padding:28px 20px;max-width:1100px;margin:auto}
+  video{width:100%;border-radius:12px;background:#000}
+  .chapters{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+  .chapters button{background:#222;color:#fff;border:1px solid #444;padding:8px 12px;border-radius:999px;cursor:pointer}
+  .chapters button:hover{background:#7cfc00;color:#111}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+  .grid figure{margin:0;background:#161616;border-radius:12px;overflow:hidden}
+  .grid img{width:100%;display:block;aspect-ratio:1;object-fit:cover}
+  .grid figcaption{padding:10px;font-size:14px}
+  .grid figure:nth-child(odd){transform:rotate(-1deg)}
+  .grid figure:nth-child(even){transform:rotate(1deg)}
+  #pit{position:relative;height:420px;background:#111;border:2px solid #7cfc00;border-radius:12px;overflow:hidden}
+  .piece{position:absolute;width:64px;height:64px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:28px;cursor:grab;user-select:none}
+  footer{padding:28px 20px;text-align:center;color:#999}
+</style>
+</head>
+<body>
+<header><b>PG UNICORN</b><a href="https://github.com/chuile326-eng/pg-unicorn-gundam">GitHub</a></header>
+<div class="hero">
+  <img src="assets/title-curtin.webp" alt="PG Unicorn Gundam, hai góc nhìn, chữ UNICORN ở giữa">
+  <h1>UNICORN</h1>
+  <p>PG 1/60 RX-0 Unicorn Gundam — Final Battle Ver. · Bandai · ~50 cm · Psycho Frame xanh lá · Beam Magnum, Hyper Bazooka, Beam Saber, 3 khiên, 6 Beam Gatling Gun.</p>
+</div>
+<div class="marquee"><span>PG UNICORN &nbsp;•&nbsp; FINAL BATTLE VER. &nbsp;•&nbsp; PSYCHO FRAME &nbsp;•&nbsp; BEAM SABER &nbsp;•&nbsp; SHIELD FUNNEL &nbsp;•&nbsp;</span></div>
+<section>
+  <h2>Showreel — 46 giây</h2>
+  <video id="reel" src="assets/showreel-v6.mp4" controls autoplay muted loop playsinline></video>
+  <div class="chapters">
+    <button data-t="0">Mở đầu</button>
+    <button data-t="4">01 Lắp ráp</button>
+    <button data-t="14">02 Toàn thân</button>
+    <button data-t="20">03 Mắt + Beam Saber</button>
+    <button data-t="28">04 Shield Funnel</button>
+    <button data-t="33">05 Vũ khí</button>
+    <button data-t="37">06 NT-D Glow</button>
+  </div>
+  <p>Showreel v6 đã soi QA từng giây: lắp ráp chỉ xuất hiện 1 lần, mỗi chương có chữ riêng, 24fps cố định.</p>
+</section>
+<section>
+  <h2>Thư viện — 12 ảnh chi tiết</h2>
+  <div class="grid">
+    <figure><img src="assets/01-fullbody.webp" alt="Toàn thân Destroy Mode"><figcaption>01 Toàn thân Destroy Mode</figcaption></figure>
+    <figure><img src="assets/02-head-chest.webp" alt="Đầu và ngực Psycho Frame"><figcaption>02 Đầu + ngực Psycho Frame</figcaption></figure>
+    <figure><img src="assets/03-weapons-shield.webp" alt="Beam Magnum và khiên"><figcaption>03 Beam Magnum + khiên</figcaption></figure>
+    <figure><img src="assets/04-back-shield.webp" alt="Sau lưng, Shield Funnel"><figcaption>04 Sau lưng, Shield Funnel</figcaption></figure>
+    <figure><img src="assets/05-arms.webp" alt="Tay"><figcaption>05 Tay</figcaption></figure>
+    <figure><img src="assets/06-legs.webp" alt="Chân"><figcaption>06 Chân</figcaption></figure>
+    <figure><img src="assets/07-beam-saber.webp" alt="Beam Saber và Hyper Bazooka"><figcaption>07 Beam Saber + Hyper Bazooka</figcaption></figure>
+    <figure><img src="assets/08-accessories.webp" alt="Phụ kiện"><figcaption>08 Phụ kiện</figcaption></figure>
+    <figure><img src="assets/09-joint-shoulder.webp" alt="Khớp vai và khuỷu"><figcaption>09 Khớp vai + khuỷu</figcaption></figure>
+    <figure><img src="assets/10-joint-hip-knee.webp" alt="Khớp hông và gối"><figcaption>10 Khớp hông + gối</figcaption></figure>
+    <figure><img src="assets/11-joint-wrist-ankle.webp" alt="Khớp cổ tay, cổ chân, cổ"><figcaption>11 Khớp cổ tay, cổ chân, cổ</figcaption></figure>
+    <figure><img src="assets/12-exploded.webp" alt="Toàn cảnh tháo rời"><figcaption>12 Toàn cảnh tháo rời</figcaption></figure>
+  </div>
+</section>
+<section>
+  <h2>Thả rơi lắp ráp lại — kéo thả được</h2>
+  <p>Bấm “Rơi lại” để các mảnh rơi xuống, kéo một mảnh để ném nó đi.</p>
+  <p><button id="drop" style="padding:10px 16px;cursor:pointer">Rơi lại</button></p>
+  <div id="pit"></div>
+</section>
+<footer>PG Unicorn Gundam · Build something original · Ảnh và video do Muse tạo, đã soi QA trước khi giao.</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+<script>
+  document.querySelectorAll('.chapters button').forEach(b=>b.onclick=()=>{const v=document.getElementById('reel');v.currentTime=+b.dataset.t;v.play();});
+  const {Engine,Render,Runner,Bodies,Composite,Mouse,MouseConstraint}=Matter;
+  const pit=document.getElementById('pit');
+  const engine=Engine.create(); const render=Render.create({element:pit,engine,width:pit.clientWidth,height:420,options:{wireframes:false,background:'#111'}});
+  const colors=['#7cfc00','#ff5fa2','#4fc3f7','#ffd54f','#b388ff','#fff','#ff7043','#4db6ac'];
+  const emojis=['🛡️','⚔️','🔫','🦵','💪','👁️','✨','🔧'];
+  function build(){Composite.clear(engine.world);const w=pit.clientWidth;Composite.add(engine.world,[Bodies.rectangle(w/2,430,w,40,{isStatic:true}),Bodies.rectangle(-10,210,20,420,{isStatic:true}),Bodies.rectangle(w+10,210,20,420,{isStatic:true})]);for(let i=0;i<8;i++){const b=Bodies.rectangle(60+Math.random()*(w-120),-40-i*50,64,64,{restitution:.6,angle:Math.random()});b.render.fillStyle=colors[i];Composite.add(engine.world,b);} }
+  const mouse=Mouse.create(render.canvas);Composite.add(engine.world,MouseConstraint.create({engine,mouse}));
+  // label emojis on top via simple divs is complex; physics bodies carry colour only
+  build(); Render.run(render); Runner.run(Runner.create(),engine);
+  document.getElementById('drop').onclick=build;
+  window.addEventListener('resize',()=>{render.canvas.width=pit.clientWidth;});
+</script>
+</body>
+</html>
